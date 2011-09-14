@@ -8,22 +8,29 @@
   <body>
     <h1><xsl:value-of select="resume/person/name"/></h1>
 
-  <h2><xsl:value-of select="resume/education/university/name"/></h2>
-  <h2><xsl:value-of select="resume/work_experience/job/company_name"/></h2>
+    <h2>Recent Work</h2>
+    <xsl:apply-templates select="resume/work_experience/job" />
+
+    <h2>Community Involvement</h2>
+    <xsl:apply-templates select="resume/community_involvement/involvement" />
+
+    <h2>Contact Information</h2>   
+    <h3><xsl:value-of select="resume/person/email"/></h3>
 
   </body>
-
 </html>
-
-
-
 </xsl:template>
 
-<xsl:template match="person">
-
+<xsl:template match="job">
+    <h3><xsl:value-of select="company_name" /></h3>
+    <h4><xsl:value-of select="job_title" /></h4>
 </xsl:template>
 
+<xsl:template match="involvement">
+    <h3><xsl:value-of select="organization" /></h3>
+    <ul>
+      <li><xsl:value-of select="position" /></li>
+    </ul>
 
-
-
+</xsl:template>
 </xsl:stylesheet>
