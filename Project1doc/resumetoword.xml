@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./resumetoword.xsl"?>
+
+<!DOCTYPE resume [
+<!ELEMENT resume (person+, education+, work_experience+, community_involvement+, awards+, skills+)>
+
+<!ELEMENT person (name+, address+, phone, email)>
+
+<!ELEMENT name (first, last)>
+
+<!ELEMENT first (#PCDATA)>
+
+<!ELEMENT last (#PCDATA)>
+
+<!ELEMENT address (street, city, state, zip)>
+
+<!ELEMENT street (#PCDATA)>
+
+<!ELEMENT city (#PCDATA)>
+
+<!ELEMENT state (#PCDATA)>
+
+<!ELEMENT zip (#PCDATA)>
+
+<!ELEMENT phone (#PCDATA)>
+
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT education (university+)>
+
+<!ELEMENT university (uniname, location, degree, honors, gpa, major, minor)>
+
+<!ELEMENT uniname (#PCDATA)>
+
+<!ELEMENT location (#PCDATA)>
+
+<!ELEMENT degree (#PCDATA)>
+
+<!ELEMENT honors (#PCDATA)>
+
+<!ELEMENT gpa (#PCDATA)>
+
+<!ELEMENT major (#PCDATA)>
+
+<!ELEMENT minor (#PCDATA)>
+
+<!ELEMENT work_experience (job+)>
+
+<!ELEMENT job (company_name, joblocation, department?, job_title, tasks+)>
+
+<!ELEMENT company_name (#PCDATA)>
+
+<!ELEMENT joblocation (#PCDATA)>
+
+<!ELEMENT department (#PCDATA)>
+
+<!ELEMENT job_title (#PCDATA)>
+
+<!ELEMENT tasks (task+)>
+
+<!ELEMENT task (#PCDATA)>
+
+<!ELEMENT community_involvement (involvement+)>
+
+<!ELEMENT involvement (organization, orglocation, position, orgtask?)>
+
+<!ELEMENT organization (#PCDATA)>
+
+<!ELEMENT orglocation (#PCDATA)>
+
+<!ELEMENT position (#PCDATA)>
+
+<!ELEMENT orgtask (#PCDATA)>
+
+<!ELEMENT awards (award+)>
+
+<!ELEMENT award (awardname, awarder, reason)>
+
+<!ELEMENT awardname (#PCDATA)>
+
+<!ELEMENT awarder (#PCDATA)>
+
+<!ELEMENT reason (#PCDATA)>
+
+<!ELEMENT skills (skill+)>
+
+<!ELEMENT skill (skillname, description)>
+
+<!ELEMENT skillname (#PCDATA)>
+
+<!ELEMENT description (#PCDATA)>
+
+]>
+
+<resume>
+  <person>
+    <name>
+      <first>Ruth</first>
+      <last>Zinsmeister</last>
+    </name>
+    <address>
+      <street>5528 S Cornell Ave Unit 3A</street>
+      <city>Chicago</city>
+      <state>IL</state>
+      <zip>60637</zip>
+    </address>
+    <phone>608-697-4113</phone>
+    <email>ruzioe@gmail.com</email>
+  </person>  
+  <education>
+    <university>
+      <uniname>University of Minnesota-Twin Cities</uniname>
+      <location>Minneapolis, MN</location>
+      <degree>Honors College of Liberal Arts-Bachelor of Arts: Double Major and Double Minor</degree>
+      <honors>Magna Cum Laude</honors>
+      <gpa>3.8</gpa>
+      <major>German and Global Studies</major>
+      <minor>Mass Communication and ESL</minor>
+    </university>
+    <university>
+      <uniname>Albert-Ludwig's University</uniname>
+      <location>Freiburg, Germany</location>
+      <degree>Study Abroad in Freiburg Germany</degree>
+      <honors></honors>
+      <gpa>N/A</gpa>
+      <major>Linguistics</major>
+      <minor>Global Studies</minor>
+    </university>
+  </education>
+  <work_experience>
+    <job>    
+      <company_name>AmeriCorps-City Year Chicago, Chicago Public Schools</company_name>
+      <joblocation>Chicago, IL</joblocation>
+      <department>Dulles School of Excellence</department>
+      <job_title>Corps Member-Literacy Coordinator</job_title>
+      <tasks>
+        <task>Provided in classroom instruction support and tutoring for 8th grade students in reading and writing</task>
+        <task>Planned lessons for and coordinated after school programming</task>
+        <task>Promoted literacy through parent and student initiatives, such as tracking grades and homework completion</task>
+      </tasks>
+    </job>
+    <job>
+      <company_name>AmeriCorps-VISTA, Volunteer MPS(Minneapolis Public Schools)</company_name>
+      <joblocation>Minneapolis, MN</joblocation>
+      <department>Homeless and Highly Mobile Student Services</department>
+      <job_title>Research Assistant</job_title>
+      <tasks>
+        <task>Researched effectiveness, accessibility and coverage of after-school programming in high-poverty schools</task>
+        <task>Developed and facilitated trainings for new volunteers and staff to raise awareness of homelessness</task>
+        <task>Provided clerical support for research project, assisted coordinator as needed and managed donations</task>
+      </tasks>
+    </job>
+    <job>
+      <company_name>School Board of Lower Austria</company_name>
+      <joblocation>Austria</joblocation>
+      <job_title>English Language Teaching Assistant</job_title>
+      <tasks>
+        <task>Taught in the U.S. Foreign Language Teaching Assistantship Program at Austrian Secondary Schools, administered by the Fulbright Commission for the Austrian Ministry of Education</task>
+        <task>Led discussions and worked with students on communication skills</task>
+        <task>Prepared lessons, quizzes and activities for students and taught in a bilingual classroom</task>
+      </tasks>
+    </job>
+  </work_experience>
+  <community_involvement>
+    <involvement>
+      <organization>Adult Basic Education</organization>
+      <orglocation>Minneapolis, MN</orglocation>
+      <position>ESL Volunteer Tutor/Classroom Assistant</position>
+    </involvement>
+    <involvement>
+      <organization>Minnesota Coalition for the Homeless</organization>
+      <orglocation>Minneapolis, MN</orglocation>
+      <position>Intern</position>
+    </involvement>
+    <involvement>
+      <organization>World Vision</organization>
+      <orglocation>Vienna, Austria</orglocation>
+      <position>Volunteer</position>
+      <orgtask>Clerical work, filing, letter translataions, and data entry</orgtask>
+    </involvement>
+  </community_involvement>
+  <awards>
+    <award>
+      <awardname>Certification of Merit</awardname>
+      <awarder>The Department of German, Scandinavian and Dutch Studies</awarder>
+      <reason>For Superior Achievements in the Study of German Language, Literature and Culture</reason>
+    </award>
+    <award>
+      <awardname>Samuel Kroesch Scholarship</awardname>
+      <awarder>The University of Minnesota German Department and the Deans Scholarship Board</awarder>
+      <reason>Awarded Based on Merit</reason>
+    </award>
+  </awards>
+  <skills>
+    <skill>
+      <skillname>Computer Skills</skillname>
+      <description>Proficient in Microsoft Office Suite and comfortable learning new programs</description>
+    </skill>
+    <skill>
+      <skillname>Typing</skillname>
+      <description>70 WPM</description>
+    </skill>
+    <skill>
+      <skillname>Proficient in German</skillname>
+      <description>Reading, Writing, and Speaking</description>
+    </skill>
+  </skills>
+</resume>

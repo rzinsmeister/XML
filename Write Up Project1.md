@@ -1,0 +1,14 @@
+Project 1 Write Up
+
+  This project was extremely challenging, but I managed to create an XML mark up of my information and three transformations. Part of the difficulty was definitely trying to wrap my mind around what xml was, while simultaneously learning XHTML and CSS for COM 530. I was definitely go back and forth between these different ways of writing I was learning and trying to combine them.  
+
+  I chose to do my resume for two reasons. The first is that it was suggested that I do my resume and also because I was doing it for COM 530. I thought it would be good way to keep the content the same and see how marking it up would differ in the different languages. I actually ended up having structural differences I hadn't anticipated. At the beginning I thought they would be the same, but my XHTML and my XML were different despite the same content. 
+
+  The first transformation I did was the xml to word document. I chose to make a one sheet brief resume because I thought it would be something that would be a practical use of my XML sheet. I have needed shortened versions of my resume before and decided to just pull a summary of qualifications work experience, education and skills that were the most pertinent and decided to leave off awards and extended information on community involvement. 
+
+  Making XML into word was extremely difficult and confusing at first. I still cannot see doing this in real life, simply because looking at the code in word is just so convoluted and hard to look through and do much with. I'm sure there are in fact good uses for this, but this is just a critique on myself that it was very challenging to get behind. By the end though I think I got the hang of the process and was able to format it pretty close to how I would do it if I was making a fresh doc file.
+
+  The next two transformation I did were both html. They are both diferent versions of bios that could be used online. For the first I used more information and put in a photo thinking it would be more detailed bio. The second would be something I could see online or printed off as a short brief about people in a department, club or organization. I also tried to structure the two html transformations slightly differently. For the first I used more of a resume list format and then for the second I wanted it to be in paragraph form. 
+
+  The work validates as far as I could see, however, I'm not sure the way I used the xml would be the best way to repdroduce information for a large group of people. The three formats definetly worked for my mark up and allowed me to reuse my content in three different formats. However, what I created wouldn't work in a different setting besides for one persons resume. I think the way I marked up the XML worked, but maybe could have been done differently. 
+
